@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #151515;
     background-size: cover;
     font-family: "Poetsen One", sans-serif;
     font-weight: bold;
@@ -33,19 +33,19 @@ button {
 }
 
 #increment-btn {
-    background: #121212;
+    background: #151515;
     border: 1px solid darkgoldenrod;
     margin-bottom: 8px;
 }
 
 #save-btn {
     background: darkgoldenrod;
-    text-shadow: 0px 0px 3px #121212;
+    text-shadow: 0px 0px 3px #151515;
 }
 
 .counter-app {
     max-width: 250px;
-    margin: 0 auto;
+    margin: 30px auto 0;
     border: 2px solid;
     padding: 10px 40px;
     border-radius: 10px;
@@ -53,4 +53,19 @@ button {
 
 p {
     font-weight: normal;
+}
+
+.extra-btns {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    gap: 8px;
+}
+
+
+#total-btn, #reset-btn {
+    background-color: #151515;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    
 }

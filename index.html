@@ -7,11 +7,16 @@
     </head>
     <body>
         <div class="counter-app">
-            <h1>Out Counter</h1>
+            <h1 id="title-el">Out Counter</h1>
             <h2 id="count-el">0</h2>
             <button id="increment-btn" onclick="increment()">INCREMENT</button>
             <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="extra-btns">
+                <button id="total-btn" onclick="totalCount()">Total</button>
+                <button id="reset-btn" onclick="reset()">Reset</button>
+            </div>
             <p id="save-el">Previous entries: </p>
+            <p id="all-counts-el"></p>
         </div>
         <script src="index.js">
             nnerText
